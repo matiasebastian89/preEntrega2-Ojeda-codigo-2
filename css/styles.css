@@ -4,6 +4,23 @@ header {
     background-color: #BA181B;
 }
 
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: aliceblue;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
 .logo {
     max-width: 100%;
     height: 50px;
@@ -19,3 +36,54 @@ header {
     justify-content: end;
 }
 
+.bienvenidos-imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.introduccion {
+    padding: 1.5rem;
+}
+
+.twitter-sitio {
+    text-align: center;
+    padding: 2rem;
+}
+
+.twitter {
+    align-content: center;
+}
+
+
+
+.twitter-timeline {
+    margin: auto;
+    max-width: 100%;
+}
+
+.pagNintendo iframe{
+    max-width: 100%;
+}
+
+.pagNintendo h3 {
+    margin-top: 3rem;
+}
+
+
+footer {
+    background-color: #BA181B ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.arriba {
+    text-decoration: none;
+}
+
+.nav-foot a {
+    text-decoration: none;
+    color: aliceblue;
+}
