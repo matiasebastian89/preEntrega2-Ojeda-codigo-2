@@ -155,10 +155,34 @@ footer {
     opacity: 0.3;
 }
 
+.juegos-encabezado {
+    padding: 20px;
+    text-align: justify;
+}
+
 .juegos-secciones {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-items: center;
+    padding: 30px;
     gap: 20px
+}
+
+.juegos-secciones div {
+    margin-bottom: 40px;
+}
+
+iframe {
+    max-width: 100%;
+    text-align: center;
+}
+
+
+@media (min-width: 1280px) {
+    .juegos-secciones{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 }
