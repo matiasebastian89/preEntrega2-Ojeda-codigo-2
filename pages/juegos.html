@@ -7,67 +7,98 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400&display=swap" rel="stylesheet">
     
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!--CSS PROPIO-->
     <link rel="stylesheet" href="../css/styles.css">
     <title>Juegos</title>
 </head>
 <body id="arriba">
     <header>
-        <a href="index.html">
-            <img src="../image/controller-3318368_640.png" alt="Logo" class="logo">
-        </a>
-        <nav>
-            <ul class="lista-nav">
-                <li>
-                    <a href="../index.html">HOME</a>
-                </li>
 
-                <li>
-                    <a href="historia-de-nintendo.html">Historia de Nintendo</a>
-                </li>
-
-                <li>
-                    <a href="consolas.html">Consolas</a>
-                </li>
-
-                <li>
-                    <a href="juegos.html">Juegos</a>
-                </li>
-
-                <li>
-                    <a href="personalidades.html">Personalidades</a>
-                </li>
-
-                <li>
-                    <a href="contacto.html">Contactanos</a>
-                </li>
-
-            </ul>
-        </nav>
+        <!--MENU DE NAVEGACION-->
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a href="../index.html">
+                <img src="../image/controller-3318368_640.png" alt="Logo" class="logo">
+                <a class="navbar-brand" href="../index.html">La graN ene</a>
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/historia-de-nintendo.html">Historia de Nintendo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/consolas.html">Consolas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/juegos.html">Juegos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/personalidades.html">Personalidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
     </header>
 
-    <img src="../image/link-fondo.jpg" class="link-fondo">
+    <div class="link-fondoJuegos">
+        <img src="../image/link-fondo.jpg" class="link-fondo">
+    </div>
 
-    <div class="juegos-encabezado">
+    <div class="juegos-encabezado my-3 text-center justify-content-center">
         <h2>Juegos</h2>
 
-    <h3>En esta sección intentaremos destacar los juegos más reconocidos de cada consola de Nintendo, tomando como punto de partida su primera consola original, la Nintendo NES</h3>
+        <h3>En esta sección intentaremos destacar los juegos más reconocidos de cada consola de Nintendo, tomando como punto de partida su primera consola original, la Nintendo NES</h3>
     </div>
     
-    <Section class="juegos-secciones">
+    <div class="juegos-secciones">
+        <div>
+            <H3>Nintendo NES</H3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ad, quasi accusamus officiis consequatur natus, sapiente sunt quos a corrupti omnis? Fuga dolore eos necessitatibus nostrum distinctio natus? Voluptatum, distinctio:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nGM_-CFKoY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
-        <H3>Nintendo NES</H3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ad, quasi accusamus officiis consequatur natus, sapiente sunt quos a corrupti omnis? Fuga dolore eos necessitatibus nostrum distinctio natus? Voluptatum, distinctio:</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nGM_-CFKoY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>
+            <h3>Gameboy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit iste perspiciatis aliquid rem repudiandae voluptate assumenda dolore minima temporibus, non labore placeat dicta harum ipsam in neque sint reprehenderit natus!:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H99yoWY5XrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
-        <h3>Gameboy</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit iste perspiciatis aliquid rem repudiandae voluptate assumenda dolore minima temporibus, non labore placeat dicta harum ipsam in neque sint reprehenderit natus!:</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/H99yoWY5XrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div>
+            <h3>Gameboy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit iste perspiciatis aliquid rem repudiandae voluptate assumenda dolore minima temporibus, non labore placeat dicta harum ipsam in neque sint reprehenderit natus!:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H99yoWY5XrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div>
+            <h3>Gameboy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit iste perspiciatis aliquid rem repudiandae voluptate assumenda dolore minima temporibus, non labore placeat dicta harum ipsam in neque sint reprehenderit natus!:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H99yoWY5XrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
         <!--Sección a continuar proximamente-->
 
-    </Section>
+    </div>
 
-    <a href="#arriba" class="arriba">Ir arriba</a>
+    <!--BOTON "IR ARRIBA"-->
+    <div class="text-center">
+        <a href="#arriba" class="arriba text-center">Ir arriba</a>
+    </div>
 
     <footer>
         <nav>
@@ -100,5 +131,7 @@
         </nav>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
 </html>

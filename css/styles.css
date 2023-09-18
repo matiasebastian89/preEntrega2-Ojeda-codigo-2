@@ -2,6 +2,7 @@ header {
     position: sticky;
     top: 0;
     background-color: #BA181B;
+    z-index: 1;
 }
 
 img {
@@ -12,6 +13,7 @@ ul {
     list-style: none;
     text-decoration: none;
 }
+
 
 .navbar-brand {
     color: aliceblue;
@@ -88,15 +90,6 @@ footer {
     color: aliceblue;
 }
 
-.historia-secciones div {
-    width: 300px;
-    height: 50%;
-    border-color: #BA181B;
-    border-style: solid;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #ba181b46;
-}
 
 .historia-secciones {
     display: flex;
@@ -109,10 +102,63 @@ footer {
     text-align: justify;
 }
 
+.historia-secciones div {
+    width: 300px;
+    height: 50%;
+    border-color: #BA181B;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ba181b46;
+}
+
+
 .mario-figura {
     position: fixed;
     margin: 0;
     max-width: 100%;
     z-index: -1;
     opacity: 0.3;
+}
+
+.container-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px
+    }
+
+@media (min-width: 768px) {
+        .container-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+        }
+    }
+    
+@media (min-width: 992px) {
+        .container-cards {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    
+.card {
+        max-width: 100%;
+    }
+
+.link-fondoJuegos {
+    position: fixed;
+    margin: 0;
+    max-width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.juegos-secciones {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    gap: 20px
 }
