@@ -1,0 +1,32 @@
+.link-fondoJuegos {
+    position: fixed;
+    margin: 0;
+    max-width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+/*anidación*/
+.juegos {
+    &-encabezado {
+        padding: 20px;
+        text-align: justify;
+    }
+    &-secciones {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        padding: 30px;
+        gap: 20px;
+        div {
+            margin-bottom: 40px;
+
+        }
+        @media (min-width: 1280px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+        }
+    }
+}

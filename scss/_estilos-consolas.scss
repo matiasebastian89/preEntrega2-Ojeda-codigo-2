@@ -1,0 +1,25 @@
+.container-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    @media (min-width: 992px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card {
+    max-width: 100%;
+    background-color: $color-principal;
+    color: aliceblue;
+    &:hover {
+        background-color: #650002;
+    }
+}
