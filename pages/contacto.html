@@ -60,10 +60,10 @@
     <img src="../image/mario-1557240_1920.jpg" class="imagen-fondo-contacto">
 
 
-
+<main>
     <section class="contenido-formulario">
         <div class="contacto-encabezado">
-            <h2>Expresate!</h2>
+            <h1>Expresate!</h1>
             <p>Dejanos tu comentario y ayudanos a mejorar el sitio UwU</p>
         </div>
 
@@ -71,13 +71,13 @@
 
             <div .formus>
                 <label for="nombre">Nombre:</label>
-                <input id="nombre" type="text">
+                <input name="nombre" id="nombre" type="text" required>
 
                 <label for="apellido">Apellido:</label>
-                <input id="apellido" type="text">
+                <input name="apellido" id="apellido" type="text" required>
     
                 <label for="correo">E-mail:</label>
-                <input id="correo" type="email">
+                <input name="correo" id="correo" type="email"required>
     
                 <label for="acerca-de">Comentario acerca de:</label>
                 <select id="acerca-de">
@@ -91,7 +91,7 @@
             
 
             <label for="comentario">Deja tu comentario acá:</label>
-            <textarea id="comentario" cols="30" rows="10"></textarea>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" required></textarea>
 
             <div class="botones">
                 <input class="boton" type="submit" value="Enviar">
@@ -101,6 +101,7 @@
         </form>
 
     </section>
+</main>
 
     <!--BOTON "IR ARRIBA"-->
     <div class="text-center">
