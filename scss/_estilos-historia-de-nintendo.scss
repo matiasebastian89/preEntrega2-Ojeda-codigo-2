@@ -1,26 +1,31 @@
-.mensaje-fijo {
-    position: fixed;
-    margin: 3rem;
-    top: 2rem;
-    background-color: rgb(242, 242, 62);
-    border-style: dotted;
-    padding: 4px;
-    z-index: -1;
-}
-
 /*anidación*/
 .historia-secciones {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 1rem;
-    text-align: justify;
+    .accordion {
+        background: none;
+        .accordion-item {
+            padding: 0.4rem;
+            border-style: none;
+            margin-bottom: 0.3rem;
+        }
+        margin: 2rem;
+        border-style: none;
+        .accordion-button {
+            background-color: $color-principal;
+            border-radius: 10px;
+        }
+        .accordion-collapse {
+            border-style: none;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            background-color: aliceblue;
+        }
+        .accordion-body {
+            border-style: none;
+            background-color: aliceblue;
+        }
+    }
+
     div {
-        width: 300px;
-        height: 50%;
         border-color: $color-principal;
         border-style: solid;
         border-radius: 10px;
