@@ -19,6 +19,8 @@
     max-width: 100%;
     background-color: $color-principal;
     color: aliceblue;
+    border-style: solid;
+    border-width: 0.15rem;
     &:hover {
         background-color: #650002;
     }

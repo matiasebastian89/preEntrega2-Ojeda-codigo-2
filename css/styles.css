@@ -49,9 +49,12 @@ iframe {
 .arriba {
   text-decoration: none;
 }
+.arriba img {
+  height: 20px;
+}
 .arriba:hover {
-  color: black;
-  background-color: rgba(59, 60, 61, 0.539);
+  background-color: rgba(83, 3, 3, 0.552);
+  border-radius: 25px;
 }
 
 footer {
@@ -71,6 +74,7 @@ footer {
   justify-content: center;
   padding: 1rem;
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .introduccion {
@@ -106,7 +110,7 @@ footer {
 .historia-secciones .accordion .accordion-item {
   padding: 0.4rem;
   border-style: none;
-  margin-bottom: 0.3rem;
+  margin-bottom: 2rem;
 }
 .historia-secciones .accordion .accordion-button {
   background-color: #BA181B;
@@ -117,6 +121,7 @@ footer {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   background-color: aliceblue;
+  opacity: 0.7;
 }
 .historia-secciones .accordion .accordion-body {
   border-style: none;
@@ -162,6 +167,8 @@ footer {
   max-width: 100%;
   background-color: #BA181B;
   color: aliceblue;
+  border-style: solid;
+  border-width: 0.15rem;
 }
 .card:hover {
   background-color: #650002;

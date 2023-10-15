@@ -48,10 +48,13 @@ iframe {
 
 
 .arriba {
+    img {
+        height: 20px;
+    }
     text-decoration: none;
     &:hover {
-        color: black;
-        background-color: rgba(59, 60, 61, 0.539);
+        background-color: rgba(83, 3, 3, 0.552);
+        border-radius: 25px;
     }
 }
 
